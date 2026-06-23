@@ -1045,7 +1045,7 @@ document.getElementById('sb-overlay').onclick = closeSidebar;
 const LS_KEY    = 'kmb_v1';
 const LS_SHEETS = 'kmb_sheets_url';
 
-let SHEETS_URL = localStorage.getItem(LS_SHEETS) || '';
+let SHEETS_URL = localStorage.getItem(LS_SHEETS) || 'https://script.google.com/macros/s/AKfycbwHXdIUgbfbeO6d-OubFTZA0TPmx0cFkpl0ioyybM5vUwY5Z0R_knkvYMPj6ddqfwW64A/exec';
 let useSheets  = !!SHEETS_URL;
 
 const DEFAULT_TAGS = {
